@@ -1,0 +1,7 @@
+n = [5, 'R', 'ty', 8, 4.59, False, 854]
+
+def t(i):
+    for i in range(len(n)):
+        print(type(n[i]))
+    return
+t(n)
